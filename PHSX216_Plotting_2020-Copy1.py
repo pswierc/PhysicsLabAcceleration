@@ -11,19 +11,19 @@ import matplotlib.pyplot as plt
 
 xheight_meters = np.array([1.103*2, 2.451*2, .717*2, .273*2, 1.466*2])
 
-xheight_meters = xheight_meters * 1000
+#xheight_meters = xheight_meters * 1000
 
-xheight_meters = np.round(xheight_meters)
+#xheight_meters = np.round(xheight_meters)
 
-xheight_meters = xheight_meters * .001
+#xheight_meters = xheight_meters * .001
 
 ytime_seconds = np.array([.44, .68, .37, .24, .52])
 
-ytime_seconds = ytime_seconds * 100
+#ytime_seconds = ytime_seconds * 100
 
-ytime_seconds = np.round(ytime_seconds)
+#ytime_seconds = np.round(ytime_seconds)
 
-ytime_seconds = ytime_seconds * .01
+#ytime_seconds = ytime_seconds * .01
 
 uncertainty_g = np.array([.149, .062, .210, .3, .107])
 
